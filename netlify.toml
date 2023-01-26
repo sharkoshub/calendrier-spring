@@ -1,1 +1,8 @@
-java -jar target/calendrier-spring.jar
+[build]
+  command = "./mvnw clean install"
+  publish = "target/calendrier-spring.jar"
+
+[[redirects]]
+  from = "/*"
+  to = "/index"
+  status = 200
