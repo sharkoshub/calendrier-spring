@@ -1,5 +1,5 @@
 [build]
-  command = "./mvnw clean install"
+  command = "chmod +x mvnw && ./mvnw clean install"
   publish = "target/calendrier-spring.jar"
 
 [[redirects]]
