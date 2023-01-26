@@ -1,8 +1,10 @@
 [build]
-  command = "chmod +x mvnw && ./mvnw clean install && java -jar target/calendrier-spring.jar"
-  publish = "target/calendrier-spring.jar"
+  command = "./mvnw clean package"
+  functions = "target/lambda"
+  publish = "target/calendrier-spring-0.0.1-SNAPSHOT"
 
 [[redirects]]
   from = "/*"
   to = "/index"
   status = 200
+
