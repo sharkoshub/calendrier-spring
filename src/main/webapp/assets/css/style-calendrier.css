@@ -1,0 +1,28 @@
+th {
+	background-color: green;
+	color: white;
+}
+
+h2 {
+	text-align: center;
+}
+
+td #date{
+	color: black;
+}
+
+#ferme, #td-ferme{
+	
+	background-image: url(/assets/images/fond-gris.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 20px;
+}
+
+#ouvert, #td-ouvert{
+	
+	background-image: url(/assets/images/fond-blanc.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 20px;
+}

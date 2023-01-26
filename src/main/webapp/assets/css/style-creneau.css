@@ -1,0 +1,29 @@
+#td-libre {
+	background-image: url(/assets/images/fond-bleu.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border-left: 5px #66cdc4 solid;
+}
+
+#libre {
+	padding: 20px;
+	color: white;
+	text-decoration: none;
+}
+
+#td-libre a:hover {
+	text-decoration: none;
+}
+
+#td-ferme{
+	
+	background-image: url(/assets/images/fond-gris.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border-left: 5px #808080 solid;
+}
+
+td {
+	width: 10px;
+	height: 100px;
+}
